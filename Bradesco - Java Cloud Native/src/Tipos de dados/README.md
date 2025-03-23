@@ -1,1 +1,1 @@
-![Tipos de Dados Java](TiposDeDadosJava.jpg)
+![Tipos de Dados Java](Imagens/TiposDeDadosJava.jpg)
