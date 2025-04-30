@@ -1,6 +1,7 @@
 
 import java.util.Scanner;
 
+// Update the import to the correct package where Triangulo is located
 import Entities.Triangulo;
 
 public class Principal {
