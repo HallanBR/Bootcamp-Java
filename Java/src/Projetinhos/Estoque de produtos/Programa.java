@@ -2,6 +2,7 @@ import Entities.Products;
 import java.util.Scanner;
 
 public class Programa {
+
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
@@ -14,6 +15,8 @@ public class Programa {
         products.price = sc.nextDouble();
         System.out.println("Insira a quantidade");
         products.quantity = sc.nextInt();
+        
+        //* 5. Exibe as informações do produto utilizando o método toString() da classe Products.
         System.out.println(products);
 
 
