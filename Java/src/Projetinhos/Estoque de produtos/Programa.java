@@ -14,8 +14,7 @@ public class Programa {
         products.price = sc.nextDouble();
         System.out.println("Insira a quantidade");
         products.quantity = sc.nextInt();
-        System.out.println(products.name + ", " + products.price + ", " + products.quantity);
-
+        System.out.println(products);
 
 
 
