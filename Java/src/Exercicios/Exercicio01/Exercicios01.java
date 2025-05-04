@@ -1,3 +1,4 @@
+package Exercicio01;
 import java.util.Scanner;
 
 public class Exercicios01 {
@@ -10,7 +11,7 @@ public class Exercicios01 {
 
         System.out.println("insira a altura");
         altura = scanner.nextDouble();
-        
+
         System.out.println("Insira a largura");
         largura = scanner.nextDouble();
 
