@@ -1,45 +1,27 @@
 import java.util.Scanner;
 
-
 public class Exercicio03 {
     public static void main(String[] args){
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Insira o nome do aluno:");
-        String nome;
-        nome = scanner.nextLine();
+        Student student = new Student();
 
-        System.out.println("Insira o valor da nota do primeiro trimestre: ");
-        int nota1;
-        nota1= scanner.nextInt();
+        student.nome = scanner.nextLine();
+        student.grade1 = scanner.nextDouble();
+        student.grade2 = scanner.nextDouble();
+        student.grade3 = scanner.nextDouble();
 
-        System.out.println("Insira o valor da nota do segundo trimestre: ");
-        int nota2;
-        nota2 = scanner.nextInt();
+        System.out.printf("Final grade: %.2f%n" , student.finalGrade());
 
-        System.out.println("Insira o valor da nota do terceiro trimestre: ");
-        int nota3;
-        nota3 = scanner.nextInt();
-
-        int pontos;
-        pontos=nota1+nota2+nota3;
-
-        int media;
-        media=60;
-        
-        int faltantes;
-        faltantes = media-pontos;
-
-        if (pontos>=media){
-            System.out.println("Aprovado");
-        }
-        else  {
-            System.out.println("Reprovado");
-            System.out.println("O aluno " + nome + " precisa de + " + faltantes + " pontos, para ser aprovado");
-            
+        if (student.finalGrade() < 60){
+            System.out.println("Failed");
+            System.out.printf("Missing %.2f points%n" , student.missingPoints());
         }
 
         scanner.close();
     }
 }
+
+
+
