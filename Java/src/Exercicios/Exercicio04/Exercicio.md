@@ -1,3 +1,6 @@
+Nesse exercicio foi utilizado construtores, sobrecarga e encapsulamento.
+
+Exe:
 Em um banco, para se cadastrar uma conta bancaria, e necessario informar o numero da conta, nome do
 titular da conta, e o valor de deposito inicial que o titulat depositou ao abrir a conta. Este valor de deposito 
 inicial, entretanto, e opcional, ou seja: se o titular nao tiver dinheiro a depositar no momento de abrir sua 
