@@ -18,29 +18,33 @@ public class Account {
         deposit(initialbalance);
     }
 
+    // retorna o número da conta
     public int getNumber() {
         return number;
     }
 
+    // retorna o nome do titular da conta
     public String getHolder() {
         return holder;
     }
+
+    // altera o nome do titular da conta
     public void setHolder(String holder) {
         this.holder = holder;
     }
 
+    // retorna o saldo atual da conta
     public double getBalance() {
         return balance;
     }
 
+    // deposita um valor na conta
     public void deposit (double amount){
         balance += amount;
     }
 
+    // saca um valor da conta, cobrando uma taxa fixa de 5.00
     public void withdraw (double amount){
         balance -= amount + 5.00;
     }
-
-    
-    
 }
