@@ -11,7 +11,7 @@ public class vetoresParte2 {
         Product[] vect = new Product [n];
 
         // Lê os dados de cada produto e armazena no vetor
-        for (int i=0; i<n; i++){
+        for (int i=0; i<vect.length; i++){
             sc.nextLine(); // Consome a quebra de linha pendente
             String name = sc.nextLine(); // Lê o nome do produto
             double price = sc.nextDouble(); // Lê o preço do produto
@@ -20,12 +20,12 @@ public class vetoresParte2 {
 
         double sum = 0.0;
         // Soma os preços de todos os produtos
-        for (int i=0; i<n; i++){
+        for (int i=0; i<vect.length; i++){
             sum += vect[i].getPrice();
         }
 
         // Calcula a média dos preços
-        double avg = sum / n;
+        double avg = sum / vect.length;
 
         // Exibe a média formatada com duas casas decimais
         System.out.printf("AVERAGE PRICE: %.2f%n", avg);
