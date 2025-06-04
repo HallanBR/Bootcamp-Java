@@ -1,0 +1,3 @@
+A dona de um pensionato possui dez quartos para alugar para estudantes, sendo esses quartos identificados pelos numeros 0 a 9.
+
+Faca um programa que inicie com todos os dez quartos vazios, e depois leia uma quantidade N representando o numero de estudantes que vao alugar quartos (N pode ser de 1 a 10). Em seguida, registre o aluguel dos N estudantes. Para cada registro de aluguel, informar o nome e email do estudante, bem como qual dos quartos ele escolheu (de 0 a 9). Suponha que seja escolhido um quarto vago. Ao final, seu programa deve impromir um relatorio de todas ocupacoes do pensionato, por ordem de quartom condorme exemplo.
