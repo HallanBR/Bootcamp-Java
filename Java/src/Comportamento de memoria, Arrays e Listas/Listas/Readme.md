@@ -15,3 +15,8 @@ Certifique-se de explorar os exemplos e adaptar os conceitos às suas necessidad
 - Operações comuns com Listas
 - Boas práticas no uso de Listas
 
+## Imagem Adicional
+
+![Exemplo de Lista](imagem2.jpg)
+
+A imagem acima ilustra um exemplo prático de como as listas podem ser utilizadas em Java para armazenar e manipular dados de forma dinâmica. Observe como as operações de adição, remoção e iteração são representadas visualmente, facilitando a compreensão do funcionamento interno das listas.
